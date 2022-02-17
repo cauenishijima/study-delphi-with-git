@@ -30,5 +30,12 @@ object Form1: TForm1
     TabOrder = 1
     OnClick = btnReverseClick
   end
-
+  object btn1: TButton
+    Left = 120
+    Top = 104
+    Width = 75
+    Height = 25
+    Caption = 'btn1'
+    TabOrder = 2
+  end
 end
