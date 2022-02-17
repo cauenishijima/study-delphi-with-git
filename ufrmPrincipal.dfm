@@ -30,6 +30,7 @@ object Form1: TForm1
     TabOrder = 1
     OnClick = btnReverseClick
   end
+<<<<<<< HEAD
   object btn1: TButton
     Left = 168
     Top = 96
@@ -54,4 +55,6 @@ object Form1: TForm1
     Caption = 'btn3'
     TabOrder = 4
   end
+=======
+>>>>>>> parent of 2ef897b... button 1 e 2
 end

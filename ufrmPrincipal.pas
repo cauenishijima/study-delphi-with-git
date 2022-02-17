@@ -10,9 +10,6 @@ type
   TForm1 = class(TForm)
     edtName: TEdit;
     btnReverse: TButton;
-    btn1: TButton;
-    btn2: TButton;
-    btn3: TButton;
     procedure btnReverseClick(Sender: TObject);
   private
     { Private declarations }
