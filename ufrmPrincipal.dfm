@@ -30,31 +30,5 @@ object Form1: TForm1
     TabOrder = 1
     OnClick = btnReverseClick
   end
-<<<<<<< HEAD
-  object btn1: TButton
-    Left = 168
-    Top = 96
-    Width = 75
-    Height = 25
-    Caption = 'btn1'
-    TabOrder = 2
-  end
-  object btn2: TButton
-    Left = 168
-    Top = 127
-    Width = 75
-    Height = 25
-    Caption = 'btn2'
-    TabOrder = 3
-  end
-  object btn3: TButton
-    Left = 168
-    Top = 158
-    Width = 75
-    Height = 25
-    Caption = 'btn3'
-    TabOrder = 4
-  end
-=======
->>>>>>> parent of 2ef897b... button 1 e 2
+
 end
