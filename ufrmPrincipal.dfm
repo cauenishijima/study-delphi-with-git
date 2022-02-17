@@ -19,14 +19,14 @@ object Form1: TForm1
     Width = 121
     Height = 21
     TabOrder = 0
-    Text = 'edtName'
+    TextHint = 'Digite seu nome'
   end
   object btnReverse: TButton
     Left = 159
     Top = 54
-    Width = 75
+    Width = 106
     Height = 25
-    Caption = 'btnReverse'
+    Caption = 'Reverter Texto'
     TabOrder = 1
     OnClick = btnReverseClick
   end
