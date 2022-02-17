@@ -10,7 +10,9 @@ type
   TForm1 = class(TForm)
     edtName: TEdit;
     btnReverse: TButton;
+    btn1: TButton;
     procedure btnReverseClick(Sender: TObject);
+    procedure btn1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -25,6 +27,11 @@ implementation
 {$R *.dfm}
 
 uses System.StrUtils;
+
+procedure TForm1.btn1Click(Sender: TObject);
+begin
+  ShowMessage('Digite seu usuário e senha:');
+end;
 
 procedure TForm1.btnReverseClick(Sender: TObject);
 begin
